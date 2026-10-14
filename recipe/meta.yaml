@@ -1,4 +1,4 @@
-{% set version = "0.4.6" %}
+{% set version = "0.4.7" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyxenium/pyxenium-{{ version }}.tar.gz
-  sha256: 38f5b5231a9c224b78ffcc2042256bba4f746a011d99e966228c078297330db8
+  sha256: a18f02076bacb2b8e82835bb7289e929466d14d68f6f127250f3fd97508ff0f0
 
 build:
   noarch: python
